@@ -13,13 +13,14 @@ body{
     display: flex;
     justify-content: center;  /* center horizontally */
     align-items: center;      /* center vertically */
-    height: 90vh;             /* give height so center works */
+    min-height: 90vh;             /* give height so center works */
 }
 
 .box{
     text-align: center;
     background-color: white;
-    width:300px;
+    width:90%px;
+     max-width: 320px; 
     border-radius: 10px;
 
     /* ✅ add spacing inside */
@@ -37,3 +38,10 @@ img{
     padding: 10px 20px;
     margin: 0;
 }
+@media (max-width: 400px) {
+    .box {
+        padding: 15px;
+    }
+    img {
+        max-width: 200px;
+    }
