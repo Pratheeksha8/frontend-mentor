@@ -1,0 +1,39 @@
+body{ 
+    margin:0;
+    padding: 0;
+    background-color: #d9e0e4;
+}
+
+.b1{
+    margin:30px;
+    background-color: #86BBD8;
+    border-radius:6px;
+
+    /* ✅ Make .b1 a flex container */
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    height: 90vh;             /* give height so center works */
+}
+
+.box{
+    text-align: center;
+    background-color: white;
+    width:300px;
+    border-radius: 10px;
+
+    /* ✅ add spacing inside */
+    padding: 20px;
+}
+
+img{
+    margin: 10px;
+    border-radius: 8px;
+    width:250px;
+}
+
+.box h4, 
+.box p {
+    padding: 10px 20px;
+    margin: 0;
+}
